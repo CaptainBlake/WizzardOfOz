@@ -48,7 +48,7 @@ namespace Mirror.Discovery
                 discoveredServers.Clear();
                 networkDiscovery.StartDiscovery();
             }
-
+            
             // LAN Host
             if (GUILayout.Button("Start Host"))
             {
@@ -64,7 +64,7 @@ namespace Mirror.Discovery
                 NetworkManager.singleton.StartServer();
                 networkDiscovery.AdvertiseServer();
             }
-
+      
             GUILayout.EndHorizontal();
 
             // show list of found server

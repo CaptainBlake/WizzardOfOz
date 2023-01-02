@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -173,6 +174,11 @@ namespace Mirror
                 SnapshotInterpolation.StepInterpolation(snapshots, localTimeline, out _, out _, out double t);
                 // Debug.Log($"NetworkClient SnapshotInterpolation @ {localTimeline:F2} t={t:F2}");
             }
+        }
+
+        public static void RegisterHandler<T>(object onNotification)
+        {
+            throw new NotImplementedException();
         }
     }
 }

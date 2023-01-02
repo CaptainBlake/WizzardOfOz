@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/TeacherScene.unity
+    guid: 440700371dcad5c4d9a9ad547a426f9c
   - enabled: 1
-    path: Assets/Scenes/testscene.unity
-    guid: cea4370335d69d740b9327ced302411b
+    path: Assets/Scenes/StudentScene.unity
+    guid: 404df67c485243644b01b4b52d8184a4
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
